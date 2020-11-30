@@ -100,7 +100,6 @@ div h3 + p {
 .attribution {
   font-size: 11px;
   text-align: center;
-  display: inline-block;
 }
 
 .attribution a {
@@ -127,5 +126,9 @@ div h3 + p {
 
   .back2 {
     background-position: 0% -250%;
+  }
+
+  .attribution {
+    font-size: 15px;
   }
 }

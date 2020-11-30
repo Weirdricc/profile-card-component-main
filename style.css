@@ -32,12 +32,12 @@ body {
 }
 
 .back1 {
-  background-position: 100% 200%;
+  background-position: 100% 220%;
   background-image: url('images/bg-pattern-top.svg');
 }
 
 .back2 {
-  background-position: 0% -100%;
+  background-position: 0% -150%;
   background-image: url('images/bg-pattern-bottom.svg');
 }
 

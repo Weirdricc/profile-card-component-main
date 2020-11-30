@@ -1,0 +1,107 @@
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a1ad;
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.back-wrap {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.back1,
+.back2 {
+  width: 50vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 900px;
+}
+
+.back1 {
+  background-position: 100% 150%;
+  background-image: url('images/bg-pattern-top.svg');
+}
+
+.back2 {
+  background-position: 0% -60%;
+  background-image: url('images/bg-pattern-bottom.svg');
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  margin-top: -196.8px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.blue-back {
+  background-image: url('images/bg-pattern-card.svg');
+  border-radius: 15px 15px 0 0;
+  width: 380px;
+  height: 150px;
+}
+
+.profile {
+  position: relative;
+  top: -50px;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-bottom: -45px;
+}
+
+div h3 {
+  margin-bottom: -10px;
+}
+
+div h3 + p {
+  margin-bottom: 37px;
+}
+
+.nums {
+  border-top: 1px solid #e8e8e8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nums p {
+  margin: 25px 0;
+}
+
+.text {
+  font-size: 10px;
+}
+
+.text,
+.age,
+div h3 + p {
+  color: #797981;
+  font-weight: 300;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: inline-block;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

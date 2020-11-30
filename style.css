@@ -13,6 +13,7 @@ body {
 .container {
   position: relative;
   margin: 0;
+  /* padding: 10px; */
   width: 100%;
   height: 100%;
 }
@@ -48,7 +49,8 @@ body {
   top: 50%;
   margin-top: -196.8px;
   background-color: white;
-  display: inline-block;
+  box-shadow: 20px 20px 60px 0px rgba(0, 0, 0, 0.1),
+    -20px 20px 60px 0px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
 }
 
@@ -104,4 +106,27 @@ div h3 + p {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 768px) {
+  .blue-back {
+    width: 340px;
+  }
+
+  .card {
+    margin-left: -170px;
+  }
+
+  .back1,
+  .back2 {
+    background-size: 800px;
+  }
+
+  .back1 {
+    background-position: 100% 350%;
+  }
+
+  .back2 {
+    background-position: 0% -250%;
+  }
 }
